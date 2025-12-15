@@ -1,14 +1,14 @@
 # SCR2ST
 SCR²-ST is a unified framework that leverages single-cell prior knowledge to guide efficient data acquisition and accurate expression prediction.
 
-![Figure1_proposal](.\asset\Figure1_proposal.png)
+![Figure1_proposal](./asset/Figure1_proposal.png)
 
 **Comparison between traditional ST sampling and our active sampling.** 
 *Left:* Traditional ST methods rely on fixed-grid sampling regardless of biological importance, leading to redundant measurements in similar regions and inefficient use of sequencing budgets. *Right:* Our proposed approach actively selects informative spots by incorporating single-cell prior knowledge, reducing redundancy while preserving biologically diverse regions.
 
 ## Overview
 
-![Figure2_framework](.\asset\Figure2_framework.png)
+![Figure2_framework](./asset/Figure2_framework.png)
 
 This framework addresses the challenge of predicting gene expression from histology images in spatial transcriptomics. We propose a reinforcement learning-based active sampling strategy that intelligently selects informative spots for training by leveraging:
 
